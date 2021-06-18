@@ -10,3 +10,5 @@ To run, go to the directory where the script is located then use the following c
 ```bash
 bash setup.bash
 ```
+I recommend putting this script in your home directory. I do this so that I can immediately call the
+script after my laptop finishes booting.
