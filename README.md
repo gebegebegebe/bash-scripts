@@ -1,6 +1,6 @@
-# Personal bash scripts
+# Personal bash scripts and terminal commands
 
-Stored bash scripts used on my linux machine. Feel free to use any of the scripts in this repository!
+Stored bash scripts and terminal commands used on my linux machine. Feel free to use any of the scripts in this repository!
 
 ## setup.bash
 
