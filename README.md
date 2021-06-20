@@ -30,7 +30,7 @@ To run, go to the directory where the script and file is located then use the fo
 ```bash
 sudo bash unblock.sh list /etc/hosts
 ```
-then input your password. To check if the *hosts* file changed you can check using the following command:
+then input your password. To check if the *hosts* file changed use the following command:
 ```bash
 cat /etc/hosts
 ```
