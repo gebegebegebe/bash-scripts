@@ -13,6 +13,6 @@ bash setup.bash
 I recommend putting this script in your home directory. I do this so that I can immediately call the
 script after my laptop finishes booting.
 
-### Refereces:
+### References:
 functions - https://linuxize.com/post/bash-functions/
 passing an array as an argument - https://askubuntu.com/questions/674333/how-to-pass-an-array-as-function-argument
