@@ -15,4 +15,5 @@ script after my laptop finishes booting.
 
 ### References:
 functions - https://linuxize.com/post/bash-functions/
+
 passing an array as an argument - https://askubuntu.com/questions/674333/how-to-pass-an-array-as-function-argument
