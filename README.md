@@ -2,7 +2,7 @@
 
 Stored bash scripts and terminal commands used on my linux machine. Feel free to use any of the scripts in this repository!
 
-## setup.bash
+# setup.bash
 
 Simple script that automatically opens links on firefox when called.
 
@@ -19,11 +19,21 @@ functions - https://linuxize.com/post/bash-functions/
 
 passing an array as an argument - https://askubuntu.com/questions/674333/how-to-pass-an-array-as-function-argument
 
-## unblocker
+# unblocker
 
 A script that automatically adds IP addresses onto the hosts file. Living in Indonesia, reddit is blocked by the government. Usually people use VPN's but I opt to override addresses by the DNS. To learn more on this topic you can read the medium article in the references below.
 
 You can check this script out in the *unblocker* directory which contains two files called *unblocker.sh* and *list*. To add more IP addresses feel free to add them on the *list* file and to make things easier it is best to put these files in the same directory (preferably in the home directory to be able to immediately call it).
+
+### How to run
+To run, go to the directory where the script and file is located then use the following command:
+```bash
+sudo bash unblock.sh list /etc/hosts
+```
+then input your password. To check if the *hosts* file changed you can check using the following command:
+```bash
+cat /etc/hosts
+```
 
 ### References:
 https://medium.com/jasonganub/how-to-access-reddit-in-indonesia-d185bb532380
