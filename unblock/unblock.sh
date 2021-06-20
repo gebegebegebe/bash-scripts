@@ -7,8 +7,9 @@ while read p
 do
   cat "$hosts" | grep -q "$p"
   #echo $?
-  if [ $? == 0 ]; then
-	  echo "found"
+  if [ $? == 1 ]; then
+    #echo $p
+    echo $p >> $hosts
   fi
 
 done < "$file" 
