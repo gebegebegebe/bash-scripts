@@ -21,7 +21,7 @@ passing an array as an argument - https://askubuntu.com/questions/674333/how-to-
 
 # unblock (directory)
 
-A script that automatically adds IP addresses onto the hosts file. Living in Indonesia, reddit is blocked by the government. Usually people use VPN's but I opt to override addresses by the DNS. To learn more on this topic you can read the medium article in the references below.
+A script that automatically adds IP addresses onto the hosts file. Living in Indonesia, reddit is blocked by the government. Usually people use VPN's but I opt to override addresses by the DNS. To learn more about this topic you can read the medium article in the references below.
 
 You can check this script out in the *unblock* directory which contains two files called *unblock.sh* and *list*. To add more IP addresses feel free to add them on the *list* file and to make things easier it is best to put these files in the same directory (preferably in the home directory to be able to immediately call it).
 
