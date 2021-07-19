@@ -15,6 +15,9 @@ sudo bash init.sh
 ```
 that's it.
 
+### References:
+how to call other scripts within a script - https://youtu.be/7D7SSIsZ7ZA
+
 # unblock (directory)
 
 A script that automatically adds IP addresses onto the hosts file. Living in Indonesia, reddit is blocked by the government. Usually people use VPN's but I opt to override addresses by the DNS. To learn more about this topic you can read the medium article in the references below.
