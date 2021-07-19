@@ -38,3 +38,15 @@ cat /etc/hosts
 ### References:
 https://medium.com/jasonganub/how-to-access-reddit-in-indonesia-d185bb532380
 
+# init
+
+A script that installs packages. I've been distro hopping and this helps to download the main 
+packages I use. I have lots of packages so it helps to just call this script once to do everything
+for me.
+
+### How to run
+To run, go to the directory where the script is located then use the following command:
+```bash
+sudo bash init.sh
+```
+that's it.
