@@ -1,6 +1,8 @@
 #!/bin/bash
 
-installcommand="dnf install"
+sudo bash ./unblock/unblock.sh ./unblock/list /etc/hosts
+
+installcommand="apt-get install"        #can change based on the install command for your respective package manager.
 
 sudo $installcommand vim
 
