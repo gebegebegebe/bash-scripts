@@ -2,22 +2,18 @@
 
 Stored bash scripts and terminal commands used on my linux machine. Feel free to use any of the scripts in this repository!
 
-# setup.bash
+# init
 
-Simple script that automatically opens links on firefox when called.
+A script that installs packages. I've been distro hopping and this helps to download the main 
+packages I use. I have lots of packages so it helps to just call this script once to do everything
+for me.
 
 ### How to run
 To run, go to the directory where the script is located then use the following command:
 ```bash
-bash setup.bash
+sudo bash init.sh
 ```
-I recommend putting this script in your home directory. I do this so that I can immediately call the
-script after my laptop finishes booting.
-
-### References:
-functions - https://linuxize.com/post/bash-functions/
-
-passing an array as an argument - https://askubuntu.com/questions/674333/how-to-pass-an-array-as-function-argument
+that's it.
 
 # unblock (directory)
 
@@ -38,15 +34,20 @@ cat /etc/hosts
 ### References:
 https://medium.com/jasonganub/how-to-access-reddit-in-indonesia-d185bb532380
 
-# init
+# setup.bash
 
-A script that installs packages. I've been distro hopping and this helps to download the main 
-packages I use. I have lots of packages so it helps to just call this script once to do everything
-for me.
+Simple script that automatically opens links on firefox when called.
 
 ### How to run
 To run, go to the directory where the script is located then use the following command:
 ```bash
-sudo bash init.sh
+bash setup.bash
 ```
-that's it.
+I recommend putting this script in your home directory. I do this so that I can immediately call the
+script after my laptop finishes booting.
+
+### References:
+functions - https://linuxize.com/post/bash-functions/
+
+passing an array as an argument - https://askubuntu.com/questions/674333/how-to-pass-an-array-as-function-argument
+
