@@ -2,6 +2,8 @@
 
 installcommand="dnf install"
 
+sudo $installcommand vim
+
 sudo $installcommand python3
 
 sudo $installcommand python3-pip
