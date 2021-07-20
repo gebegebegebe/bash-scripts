@@ -13,3 +13,5 @@ sudo $installcommand python3-pip
 python3 -m pip install --upgrade pip
 
 sudo $installcommand ghc
+
+sudo $installcommand neofetch
