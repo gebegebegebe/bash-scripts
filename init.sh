@@ -16,6 +16,6 @@ sudo $installcommand ghc
 
 sudo $installcommand neofetch
 
-sudo $installcommand git
-
 sudo $installcommand postgresql         #this is different for yum and dnf
+
+sudo $installcommand git build-essential cmake cppcheck
