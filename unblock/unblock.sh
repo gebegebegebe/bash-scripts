@@ -3,13 +3,9 @@
 file="$1"
 hosts="$2"
 
-while read p
-do
-  cat "$hosts" | grep -q "$p"
-  #echo $?
-  if [ $? == 1 ]; then
-    #echo $p
-    echo $p >> $hosts
-  fi
-
-done < "$file" 
+while read p ; do
+        if ! cat $hosts | grep "$p"; then
+                echo "$p" >> $hosts
+        fi
+done < "$file"
+echo "sites unblocked"
