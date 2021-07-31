@@ -2,6 +2,8 @@
 
 Stored bash scripts and terminal commands used on my linux machine. Feel free to use any of the scripts in this repository!
 
+important note: Use the install command associated with your package manager.
+
 # init
 
 A script that installs packages. I've been distro hopping and this helps to download the main 
