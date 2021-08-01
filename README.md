@@ -42,7 +42,7 @@ cat /etc/hosts
 ### References:
 https://medium.com/jasonganub/how-to-access-reddit-in-indonesia-d185bb532380
 
-# setup.bash
+# setup.sh
 
 Simple script that automatically opens links on firefox when called.
 
@@ -59,7 +59,7 @@ functions - https://linuxize.com/post/bash-functions/
 
 passing an array as an argument - https://askubuntu.com/questions/674333/how-to-pass-an-array-as-function-argument
 
-# commandlineprompt.bash
+# commandlineprompt.sh
 
 Script that changes the prompt (from showing your current working directory and its entire path) to just your 
 username (can be customized).
