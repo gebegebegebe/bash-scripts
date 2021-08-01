@@ -1,6 +1,6 @@
 #!/bin/bash
 
-user="lordavon"
+user="insertusernamehere"
 
 name="export PS1='$user@pop-os: '"
 
