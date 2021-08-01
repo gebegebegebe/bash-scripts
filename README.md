@@ -49,7 +49,7 @@ Simple script that automatically opens links on firefox when called.
 ### How to run
 To run, go to the directory where the script is located then use the following command:
 ```bash
-bash setup.bash
+bash setup.sh
 ```
 I recommend putting this script in your home directory. I do this so that I can immediately call the
 script after my laptop finishes booting.
