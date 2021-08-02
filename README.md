@@ -71,6 +71,8 @@ To run, go to the directory where the script is located then use the following c
 ```bash
 sudo bash commandlineprompt.sh
 ```
+### References:
+https://superuser.com/questions/60555/show-only-current-directory-name-not-full-path-on-bash-prompt
 
 (vscode currently WIP)
 
