@@ -2,7 +2,7 @@
 
 user="insertusernamehere"
 
-name="export PS1='$user@pop-os: '"
+name="export PS1='\${PWD/*\//}> '"
 
 outputfile="/home/$user/.bashrc"
 
