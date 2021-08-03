@@ -68,7 +68,7 @@ username (can be customized).
 (already found workaround and has been updated)
 
 ### How to run
--*Do not* use sudo/run as root
+-*Do not* use sudo/run as root. 
 To run, go to the directory where the script is located then use the following command:
 ```bash
 bash commandlineprompt.sh
