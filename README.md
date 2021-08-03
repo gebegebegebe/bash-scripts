@@ -64,7 +64,8 @@ passing an array as an argument - https://askubuntu.com/questions/674333/how-to-
 Script that changes the prompt (from showing your current working directory and its entire path) to just your 
 username (can be customized).
 
-Note: can't use whoami or even echo $USER and $LOGNAME because the script will run as root, not the current user.
+~~Note: can't use whoami or even echo $USER and $LOGNAME because the script will run as root, not the current user.~~
+(already found workaround and has been updated)
 
 ### How to run
 To run, go to the directory where the script is located then use the following command:
