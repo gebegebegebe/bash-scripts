@@ -1,13 +1,11 @@
 #!/bin/bash
 
-user="insertusernamehere"
-
 name="export PS1='\${PWD/*\/}> '"
 
-outputfile="/home/$user/.bashrc"
+outputfile="/home/$USER/.bashrc"
 
 if ! cat $outputfile | grep "$name"; then
-	echo "$name" >> $outputfile
+	sudo echo "$name" >> $outputfile
 fi
 
 . $outputfile
