@@ -67,6 +67,12 @@ username (can be customized).
 ~~Note: can't use whoami or even echo $USER and $LOGNAME because the script will run as root, not the current user.~~
 (already found workaround and has been updated)
 
+Before:
+![Before!](images/ex1.JPG)
+
+After:
+![After!](images/ex2.JPG)
+
 ### How to run
 -*Do not* use sudo/run as root. 
 To run, go to the directory where the script is located then use the following command:
