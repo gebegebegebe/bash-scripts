@@ -68,10 +68,10 @@ username (can be customized).
 (already found workaround and has been updated)
 
 Before:
-![Before!](images/ex1.JPG)
+![Before!]  (images/ex1.JPG)
 
 After:
-![After!](images/ex2.JPG)
+![After!]   (images/ex2.JPG)
 
 ### How to run
 -*Do not* use sudo/run as root. 
