@@ -18,8 +18,10 @@ sudo $installcommand neofetch
 
 sudo $installcommand postgresql         #this is different for yum and dnf
 
-sudo $installcommand git build-essential cmake cppcheck
+sudo $installcommand build-essential cmake cppcheck
 
 sudo $installcommand clang
 
 sudo bash ./commandlineprompt.sh
+
+sudo bash ./git.sh
