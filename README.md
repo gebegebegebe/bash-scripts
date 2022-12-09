@@ -84,5 +84,14 @@ bash commandlineprompt.sh
 ### References:
 https://superuser.com/questions/60555/show-only-current-directory-name-not-full-path-on-bash-prompt
 
+# disable.sh
+
+[Personal] Script to automatically detect and disable my laptop's left and right buttons (the right one is broken)
+
+### How to run
+```bash
+bash disable.sh
+```
+
 (vscode currently WIP)
 
